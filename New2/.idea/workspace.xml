@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61a36911-1c26-410d-9dd5-2d9d7fcbb9ca" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vasea.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2COBOQBzHHiadSSKIruq73DvAHg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Артем/Desktop/New/New",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.breadcrumbs",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Node.js.vasea.js">
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/script.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="vasea.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vasea.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="STARTS" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.vasea.js" />
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61a36911-1c26-410d-9dd5-2d9d7fcbb9ca" name="Changes" comment="" />
+      <created>1658663718079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658663718079</updated>
+      <workItem from="1658663719356" duration="2236000" />
+      <workItem from="1658665996140" duration="7219000" />
+      <workItem from="1658695307931" duration="332000" />
+      <workItem from="1658837440430" duration="2677000" />
+      <workItem from="1658845297396" duration="75000" />
+      <workItem from="1658854837729" duration="1084000" />
+      <workItem from="1658955699232" duration="1461000" />
+      <workItem from="1659131347711" duration="2982000" />
+      <workItem from="1659215357763" duration="676000" />
+      <workItem from="1659216046977" duration="635000" />
+      <workItem from="1659268063745" duration="1702000" />
+      <workItem from="1659304037532" duration="3440000" />
+      <workItem from="1659377233520" duration="6540000" />
+      <workItem from="1659468684909" duration="2470000" />
+      <workItem from="1659642795659" duration="3026000" />
+      <workItem from="1659728389071" duration="2970000" />
+      <workItem from="1659800357423" duration="6936000" />
+      <workItem from="1659871555046" duration="1501000" />
+      <workItem from="1659983832478" duration="3967000" />
+      <workItem from="1660075323739" duration="1623000" />
+      <workItem from="1660150632930" duration="6462000" />
+      <workItem from="1660213167366" duration="4180000" />
+      <workItem from="1660249866292" duration="5778000" />
+      <workItem from="1660338708206" duration="295000" />
+      <workItem from="1660414371609" duration="568000" />
+      <workItem from="1660473309557" duration="1104000" />
+      <workItem from="1660490052222" duration="5701000" />
+      <workItem from="1660770204407" duration="1825000" />
+      <workItem from="1660825397586" duration="634000" />
+      <workItem from="1660842064071" duration="593000" />
+      <workItem from="1660934629324" duration="5608000" />
+      <workItem from="1660940479222" duration="8000" />
+      <workItem from="1661016051663" duration="3160000" />
+      <workItem from="1661020670625" duration="1917000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+.active {
+    color: darkred;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+ul > li > a {
+    display: flex;
+    text-decoration: none;
+}
+
