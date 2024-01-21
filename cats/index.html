@@ -4,12 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cats</title>
 </head>
 <body>
     
 
+    <div class="card">
+        <img src="image/314712255_651404516472379_4305959174980700872_n.jpg" alt="image">
+        <h2>Card</h2>
+      </div>
+
+
+
+
+
+
+      <ul id="products">
+        <li>
+          <h3>Produsul 1</h3>
+          <p>Descrierea produsului 1</p>
+          <button class="add-to-cart" data-product-id="1">Adauga in cos</button>
+        </li>
+        <li>
+          <h3>Produsul 2</h3>
+          <p>Descrierea produsului 2</p>
+          <button class="add-to-cart" data-product-id="2">Adauga in cos</button>
+        </li>
+        ...
+      </ul>
+
+      
+      <table id="cart">
+        <thead>
+          <tr>
+            <th>Produs</th>
+            <th>Pret</th>
+            <th>Cantitate</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- randuri pentru fiecare produs din cos vor fi adaugate aici dinamic cu JavaScript -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Total</td>
+            <td id="total-price">0</td>
+          </tr>
+        </tfoot>
+      </table>
+      
 
     <script src="script.js"></script>
+    <script src="vasea.js"></script>
 </body>
 </html>

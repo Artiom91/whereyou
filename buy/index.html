@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <button class="buton" id="checkout"><span><img src="image/cart.png" alt=""></span></button>
+</head>
+<body>
+<div>
+    <h1>Item count: <div id="cartId"></div></h1>
+    <h2>Total price: <div id="totalPrice"></div></h2>
+</div>
+
+    
+    <div style="display: flex;">
+        <form id="itemForm">
+            <div class="product-item">
+                <img src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
+                <div class="product-list">
+                    <input  class="name" name="name" id="nameId" type="text" value="Rochie 1">
+                    <input  class="price" name="price" id="priceId" type="text" value="12.06" readonly style="border: none;">
+                    <input  class="qty" name="qty" id="qtyId" type="text" value="1" hidden>
+                    <button type="button" class="button" id="addToCart">В корзину</button>
+                </div>
+              </div>
+        
+        </form>
+   
+ 
+
+    
+    </div>
+        
+      
+
+
+
+
+<script>
+    const button = document.querySelector('#addToCart')
+    const priceId = document.querySelector('#priceId')
+    const nameId = document.querySelector('#nameId')
+    const cartId = document.querySelector('#cartId')
+    const totalPrice = document.querySelector('#totalPrice')
+
+    let cart = []
+
+    button.addEventListener('click', function(e){
+        e.preventDefault()
+
+
+        const item = {
+            id: 1,
+            name: nameId.value, 
+            price: +priceId.value,
+            qty: 1
+        }
+
+     let existingItem = cart.find(i => i.id === item.id)
+
+     if(existingItem) {
+        existingItem.qty += item.qty
+     } else {
+        cart.push(item)
+     }
+     
+
+    let result =  cart.map(e => e)
+
+    let total = result.map(i => i.price * i.qty)
+
+    const formatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+
+  // These options are needed to round to whole numbers if that's what you want.
+  //minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+  //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+});
+
+
+const allItems = cart.map(item => item)
+
+console.log(allItems.length)
+        document.getElementById('cartId').innerHTML = allItems.length;
+        document.getElementById('totalPrice').innerHTML = formatter.format(total);
+
+         console.log(cart)
+
+    })
+
+    
+
+</script>  
+        
+</body>
+</html>
